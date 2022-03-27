@@ -6,15 +6,15 @@ def main(s):
     Returns:
         int: answer
     """
-    s=0
+    sum_digit=0
     if s[0].isdigit():
-        s+=1
+        sum_digit+=1
     if s[1].isdigit():
-        s+=1
+        sum_digit+=1
     if s[2].isdigit():
-        s+=1
+        sum_digit+=1
     if s[3].isdigit():
-        s+=1
+        sum_digit+=1
     if s[4].isdigit():
-        s+=1            
-    return s
+        sum_digit+=1            
+    return sum_digit
