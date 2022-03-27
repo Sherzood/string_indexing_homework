@@ -6,7 +6,7 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if len(s)>n:
+    if len(s)>=n:
         return s[n]
     else:
         return "False"    
